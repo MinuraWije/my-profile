@@ -213,3 +213,33 @@ body{
         /*left: 10vw;*/
     }
 }
+
+@media (max-width: 995px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .home-img {
+        width: 100%;
+    }
+
+    .home-img img{
+        left: 0;
+        right: 0;
+        top: -30px;
+    }
+
+    .home-content {
+        position: relative;
+        bottom: -500px;
+        text-align: center;
+    }
+
+    .home-sm {
+        position: relative;
+        bottom: -445px;
+        left: 0;
+    }
+}
