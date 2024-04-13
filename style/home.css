@@ -243,3 +243,11 @@ body{
         left: 0;
     }
 }
+
+@media (max-width: 425px) {
+    .home-content h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
