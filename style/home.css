@@ -10,13 +10,21 @@ body{
     background: #212121;
     color: #ededed;
 }
+
+.logo{
+    font-size: 25px;
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .header{
     position: fixed;
     top: 0;
     left: 0vw;
     width: 100%;
     padding: 20px 10%;
-    /*padding-left: 800px;*/
+    /*padding-left: 50vw;*/
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -87,9 +95,10 @@ body{
 
 .home-sm {
     position: relative;
-    bottom: -270px;
+    bottom: -200px;
     /*left: 15vw;*/
-    left: 250px;
+    /*left: 250px;*/
+    left: -600px;
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -162,5 +171,45 @@ body{
         background-color: #ededed;
         margin: 4px 0;
         transition: 0.4s;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-img img{
+        width: 400px;
+    }
+
+    .home-content{
+        max-width: 550px;
+    }
+
+    .home-content h1{
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .home-content h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .home-content h3{
+        font-size: 26px;
+        font-weight: 700;
+        color: #03A9F4;
+        line-height: 1.8;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin: 20px 0 40px;
+    }
+
+    .home-sm {
+        bottom: -150px;
+        /*left: 200px;*/
+        left: -500px;
+        /*left: 10vw;*/
     }
 }
