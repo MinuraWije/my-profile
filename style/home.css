@@ -71,3 +71,25 @@ body{
     font-size: 20px;
     margin: 20px 0 40px;
 }
+
+.home-img img{
+    width: 400px;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.home-sm {
+    position: relative;
+    bottom: -270px;
+    left: 250px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
