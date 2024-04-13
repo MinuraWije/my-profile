@@ -93,3 +93,41 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.home-sm a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #03A9F4;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #03A9F4;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sm a:hover {
+    color: #212121;
+}
+
+.home-sm a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #03A9F4;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sm a:hover::before {
+    width: 100%;
+}
