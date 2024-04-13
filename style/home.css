@@ -88,6 +88,7 @@ body{
 .home-sm {
     position: relative;
     bottom: -270px;
+    /*left: 15vw;*/
     left: 250px;
     width: 200px;
     display: flex;
@@ -130,4 +131,36 @@ body{
 
 .home-sm a:hover::before {
     width: 100%;
+}
+
+@media (max-width: 950px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        background-color: #212121;
+        top: 70px;
+        left: 0;
+        z-index: 99;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #ededed;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
 }
