@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.record {
+.project {
     background: rgba(57,52,78,0.1);
     position: relative;
     width: 480px;
@@ -17,4 +17,52 @@
     cursor: pointer;
     transition: box-shadow 300ms;
     box-shadow: 1px 1px 10px rgba(57, 52, 78, 0.7);
+}
+
+.project:hover {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-image1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project:hover .project-image1,
+.project:hover .project-image2,
+.project:hover .project-image3,
+.project:hover .project-image4,
+.project:hover .project-image5,
+.project:hover .project-image6{
+    height: 20%;
+    box-shadow: 1px 1px 10px rgba(57, 52, 78, 0.7);
+}
+
+.project-desc {
+    margin: 20px 0 0 10px;
+    opacity: 1;
+    transition: opacity 400ms ease-in-out 190ms;
+}
+
+.project-desc h1 {
+    margin: 5px 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.project-desc p {
+    font-size: 0.75em;
+    line-height: 1.4em;
+    color: #666;
+}
+
+.project:hover .project-desc {
+    opacity: 1;
+}
+
+#project1, #project2, #project3, #project4, #project5{
+    transition: height 300ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
 }
