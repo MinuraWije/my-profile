@@ -95,8 +95,7 @@ section .title {
 
 @media (max-width: 500px) {
 
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
+    .about .about-content .right .text {
         font-size: 19px;
     }
 
