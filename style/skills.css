@@ -10,19 +10,29 @@
 .skill-content div {
     position: relative;
     width: 250px;
-    height: 450px;
+    height: 400px;
     background-color: #323131;
     gap: 100px;
     align-items: center;
     border-radius: 20px;
     margin-bottom: 10px;
-
+    /*
+    border: 1px solid #03A9F4;
+    */
 }
 
 .skill-content div h5{
     color: #03A9F4;
     text-align: center;
-    font-size: medium;
-    margin-top: 20px;
+    font-size: large;
+    margin-top: 30px;
+}
 
+.skill-content div .content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-content div p{
+    text-align: center;
 }
