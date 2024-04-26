@@ -1,0 +1,20 @@
+.project-wrapper {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.record {
+    background: rgba(57,52,78,0.1);
+    position: relative;
+    width: 480px;
+    height: 380px;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 300ms;
+    box-shadow: 1px 1px 10px rgba(57, 52, 78, 0.7);
+}
