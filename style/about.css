@@ -54,6 +54,10 @@ section .title {
 }
 
 @media (max-width: 1104px) {
+    .about{
+        position: relative;
+        top: -100px;
+    }
     .about .about-content .left img {
         height: 350px;
         width: 350px;
@@ -87,5 +91,37 @@ section .title {
         width: 100%;
         margin-bottom: 35px;
     }
+}
 
+@media (max-width: 500px) {
+
+    .about .about-content .right .text,
+    .skills .skills-content .left .text {
+        font-size: 19px;
+    }
+
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email {
+        margin: 0;
+    }
+}
+
+@media (max-width: 995px) {
+    .about{
+        position: relative;
+        top: 50px;
+    }
+
+    /*.services {
+        position: relative;
+        top: 200px;
+    }
+
+    .contact {
+        position: relative;
+        top: -300px;
+    }*/
 }
