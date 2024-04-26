@@ -52,3 +52,14 @@ section .title {
 .about .about-content .right p {
     text-align: justify;
 }
+
+@media (max-width: 1104px) {
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+    section .title::after {
+        bottom: -8px;
+        font-size: 16px;
+    }
+}
