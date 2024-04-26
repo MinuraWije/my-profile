@@ -11,7 +11,7 @@
     position: relative;
     width: 250px;
     height: 400px;
-    background-color: #323131;
+    background-color: #313131;
     gap: 100px;
     align-items: center;
     border-radius: 20px;
@@ -33,6 +33,6 @@
     margin-bottom: 20px;
 }
 
-.skill-content div p{
+.skill-content div>p{
     text-align: center;
 }
