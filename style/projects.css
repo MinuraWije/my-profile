@@ -31,13 +31,35 @@
     background-position: center;
 }
 
+.project-image2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-image3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-image4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .project:hover .project-image1,
 .project:hover .project-image2,
 .project:hover .project-image3,
-.project:hover .project-image4,
-.project:hover .project-image5,
-.project:hover .project-image6{
-    height: 20%;
+.project:hover .project-image4{
+    height: 50%;
     box-shadow: 1px 1px 10px rgba(57, 52, 78, 0.7);
 }
 
@@ -51,6 +73,7 @@
     margin: 5px 0;
     font-size: 1.3em;
     font-weight: 700;
+    color: #03A9F4;
 }
 
 .project-desc p {
@@ -64,5 +87,5 @@
 }
 
 #project1, #project2, #project3, #project4, #project5{
-    transition: height 300ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+    transition: height 800ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
 }
