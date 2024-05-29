@@ -73,7 +73,7 @@
 .project:hover .project-image2,
 .project:hover .project-image3,
 .project:hover .project-image4{
-    height: 20%;
+    height: 50%;
     box-shadow: 1px 1px 10px rgba(57, 52, 78, 0.7);
 }
 
