@@ -79,3 +79,44 @@
     color: #03A9F4;
     top: 5%;
 }
+#assignment .card:hover .link:hover{
+    color: white;
+}
+#assignment .card:hover .card-title{
+    position: absolute;
+    top: 16%;
+}
+
+#assignment .card:hover .title2{
+    position: absolute;
+    display: block;
+    font-size: 0.7rem;
+    width: 85%;
+    top: 37%;
+    text-align: center;
+}
+
+#assignment .card:hover .text {
+    transition: all 2s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+#assignment .card:hover .list{
+    display: block;
+    position: absolute;
+    top: 55%;
+}
+#assignment .card:hover .list > li >a{
+    color: #03A9F4;
+}
+
+#assignment .card:hover .list > li >a:hover{
+    color: white;
+}
+@media (max-width: 995px) {
+    #assignment{
+        position: relative;
+        top: -250px;
+    }
+}
