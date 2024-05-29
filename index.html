@@ -11,12 +11,17 @@
     <meta name="author" content="Minura Wijewickrama">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/skills.css">
     <link rel="stylesheet" href="style/projects.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
 </head>
 
@@ -42,7 +47,7 @@
 <main>
     <section class="home" id="Home">
         <div class="home-content">
-            <h1>welcome.</h1>
+            <h1 class="animate__animated animate__backInLeft" >welcome.</h1>
             <!--<h2>I'm</h2>-->
             <h3>I'm Minura</h3>
             <p>I build engaging, cutting-edge web
@@ -71,11 +76,11 @@
             <div class="about-content">
                 <!--<h6>commited</h6>-->
 
-                <div class="column left">
+                <div data-aos="fade-left" data-aos-duration="1000" class="column left">
                     <img src="assets/img/aboutmeimg.jpeg" alt="Profile Image 626x626">
                 </div>
 
-                <div class="column right">
+                <div data-aos="fade-left" data-aos-duration="1000" class="column right">
                     <img src="assets/img/icons8-student-32.png" title="Student" width="30">
 
                     <p>
@@ -305,6 +310,10 @@
     <p>Privacy policy <br> Terms and Conditions</p>
 </section>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
