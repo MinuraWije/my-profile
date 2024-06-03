@@ -15,9 +15,9 @@
 }
 #assignment .card {
     width: 100%;
-    max-width: 380px;
+    max-width: 330px;
     min-width: 280px;
-    height: 400px;
+    height: 370px;
     background-color: #323131;
     margin: 20px;
     border-radius: 10px;
@@ -70,7 +70,7 @@
 }
 
 #assignment .card:hover {
-    height: 400px;
+    height: 370px;
 }
 #assignment .card:hover .link{
     display: block;
