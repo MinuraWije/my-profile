@@ -176,3 +176,19 @@
 .social-menu ul li a:hover::before {
     width: 100%;
 }
+
+footer {
+    background: #03A9F4;
+    padding: 6px 16px;
+    color: #ededed;
+    text-align: center;
+}
+
+footer span a {
+    color: #0F0F0F;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
