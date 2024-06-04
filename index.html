@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="style/skills.css">
     <link rel="stylesheet" href="style/projects.css">
     <link rel="stylesheet" href="style/assignments.css">
+    <link rel="stylesheet" href="style/contact.css">
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -38,7 +39,7 @@
         <a href="#about">about</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
-        <a href="#Contact">contact</a>
+        <a href="#contact">contact</a>
     </nav>
     <div class="menu-toggle">
         <div class="bar"></div>
@@ -64,9 +65,9 @@
         </div>
 
         <div class="home-sm">
-            <a href="https://github.com/MinuraWije"><!--<img src="assets/img/icons8-github-30.png" title="git hub" width="40">--><i class='bx bxl-github' ></i></a>
-            <a href="https://www.linkedin.com/in/minura-wijewickrama-0b7a6927a/"><!--<img src="assets/img/icons8-linkedin-50.png" title="linkedin" width="40">--><i class='bx bxl-linkedin'></i></a>
-            <a href=""><!--<img src="assets/img/icons8-whatsapp-32.png" title="git hub" width="40">--><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://github.com/MinuraWije"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/minura-wijewickrama-0b7a6927a/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://wa.me/+94740083688"><i class='bx bxl-whatsapp' ></i></a>
         </div>
     </section>
 </main>
@@ -417,33 +418,72 @@
 </main>
 
 
-<!--Contact-->
-<section>
+<main>
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h3 class="title">contact.</h3>
 
-    <h3 id="Contact">contact.</h3>
+            <div class="contact-content">
 
-    <p>Interested to work with me?</p>
-    <p> Let's chat!</p>
+                <div class="column left">
+                    <div class="text">Interested to work with me?</div>
+                    <p>Whether you have a project in mind, want to collaborate, or just want to say hello, please feel free to reach out.
+                        You can contact me via the following methods:</p>
+                    <div class="icons">
 
-    <div>
-        <input type="text" id="Full name" placeholder="Full name">
-        <br><br>
+                        <div class="row">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title"><a href="mailto:minurawije@gmail.com"
+                                                          style="text-decoration: none; color: #afafaf;">minurawije@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
 
-        <input type="text" id="Email Address" placeholder="Email address">
-        <br><br>
+                        <br>
 
-        <input type="text" id="Subject" placeholder="Subject">
+                        <div class="social-menu">
+                            <ul>
+                                <li><a href="https://github.com/MinuraWije"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/minura-wijewickrama-0b7a6927a/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://wa.me/+94740083688"><i class="fa-brands fa-whatsapp"></i></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Alternatively, you can fill out the contact form here, and I will get back to you as soon as possible.</p>
+                </div>
 
-        <p>Tell me about your project</p>
+                <!-- Reach -->
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
 
-        <textarea name="Details" id="Details" cols="30" rows="10" placeholder="Enter Details here."></textarea>
-        <br>
+            </div>
+        </div>
+    </section>
+</main>
 
-        <input type="button" id="Send Message" value="Send message">
-
-    </div>
-
-</section>
 
 <!--Footer-->
 <section>
