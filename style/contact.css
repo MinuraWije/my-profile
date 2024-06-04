@@ -192,3 +192,27 @@ footer span a {
 footer span a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 995px) {
+
+    .contact .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
+    }
+
+    .contact .contact-content .left {
+        order: 1; /* Change the order to 2 for mobile layout */
+    }
+
+    .contact .contact-content .right {
+        order: 2; /* Change the order to 1 for mobile layout */
+    }
+
+    .social-menu ul {
+        justify-content: center;
+    }
+}
