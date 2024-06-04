@@ -103,3 +103,9 @@
     border: 2px solid #03A9F4;
     transition: all 0.3s ease;
 }
+
+.right form .button-area button:hover {
+    color: #03A9F4;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+}
