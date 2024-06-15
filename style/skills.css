@@ -28,6 +28,26 @@
     margin-top: 30px;
 }
 
+/*.skill-content #html{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.skill-content #css{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.skill-content #js{
+    margin-left: 100px;
+    margin-top: 40px;
+}*/
+.skill-content figure{
+    width: 40px;
+    display: block;
+    margin: auto;
+    /*margin-left: 105px;*/
+    margin-top: 25px;
+    align-items: center;
+}
 .skill-content div .content{
     margin-top: 20px;
     margin-bottom: 20px;
