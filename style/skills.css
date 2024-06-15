@@ -36,3 +36,9 @@
 .skill-content div>p{
     text-align: center;
 }
+
+@media (max-width: 995px) {
+    .skills{
+        top: 100px;
+    }
+}

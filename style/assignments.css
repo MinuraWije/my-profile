@@ -1,4 +1,4 @@
-.max-width .assignment{
+ .assignment{
     position: relative;
     top: 5%;
     display: flex;
@@ -15,7 +15,7 @@
 }
 #assignment .card {
     width: 100%;
-    max-width: 330px;
+    max-width: 380px;
     min-width: 280px;
     height: 370px;
     background-color: #323131;
@@ -117,6 +117,16 @@
 @media (max-width: 995px) {
     #assignment{
         position: relative;
-        top: -250px;
     }
 }
+/*@media (max-width: 425px){
+    #assignment .card{
+        !*left: -100px;*!
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}*/
