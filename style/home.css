@@ -81,7 +81,12 @@ body{
 }
 
 .home-img img{
+    /*width: 500px;*/
+    height: 500px;
     width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 3px solid #03A9F4;
     position: absolute;
     right: 100px;
     top: 0;
@@ -145,6 +150,7 @@ body{
 @media (max-width: 1200px) {
     .home-img img{
         width: 400px;
+        height: 400px;
     }
 
     .home-content{
