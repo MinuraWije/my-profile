@@ -40,7 +40,7 @@
 .project-image1 {
     width: 100%;
     height: 100%;
-    background-image: url("../assets/img/Tyre shop portfolio.jpg");
+    background-image: url("../assets/img/tyrenew3.png");
     background-size: cover;
     background-position: center;
 }
@@ -48,7 +48,7 @@
 .project-image2 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/me.png");
+    background-image: url("../assets/img/tyrenew.png");
     background-size: cover;
     background-position: center;
 }
@@ -56,7 +56,7 @@
 .project-image3 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-image: url("../assets/img/library.png");
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@
 .project-image4 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/Tyre shop portfolio.jpg");
+    background-image: url("../assets/img/chat2.png");
     background-size: cover;
     background-position: center;
 }
@@ -160,4 +160,13 @@
     width: 80%;
     z-index: -1;
     transition: 100ms linear;
+}
+
+@media (max-width: 525px) {
+    .project-desc h1 {
+        margin: 5px 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #03A9F4;
+    }
 }
